@@ -84,7 +84,7 @@
           <h6 class="sub-menu__title text-uppercase">Subscribe</h6>
           <p>Be the first to get the latest news about trends, promotions, and much more!</p>
           <form action="#" class="footer-newsletter__form position-relative bg-body">
-            <input class="form-control border-white" type="email" name="email" placeholder="Your email address">
+            <input autocomplete="off" value="{{ old('email') }}" class="form-control border-white" type="text" name="email" placeholder="Your email address">
             <input class="btn-link fw-medium bg-white position-absolute top-0 end-0 h-100" type="submit" value="JOIN">
           </form>
 
@@ -100,7 +100,7 @@
 
     <div class="footer-bottom container">
       <div class="d-block d-md-flex align-items-center">
-        <span class="footer-copyright me-auto">©2024 Uomo</span>
+        <span class="footer-copyright me-auto">©{{ date('Y') }} Sika's Clothing. All Rights Reserved</span>
         <div class="footer-settings d-block d-md-flex align-items-center">
           <div class="d-flex align-items-center">
             <label for="footerSettingsLanguage" class="me-2 text-secondary">Language</label>
