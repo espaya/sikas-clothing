@@ -184,7 +184,7 @@
 
       <div class="logo">
         <a href="index.html">
-          <img src="/images/logo.png" alt="Uomo" class="logo__image d-block">
+          <img src="{{ asset('/assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block">
         </a>
       </div><!-- /.logo -->
 
@@ -564,7 +564,7 @@
 
                 <div class="mega-menu__media col">
                   <div class="position-relative">
-                    <img loading="lazy" class="mega-menu__img" src="../images/mega-menu-item.jpg" alt="New Horizons">
+                    <img loading="lazy" class="mega-menu__img" src="{{ asset('/assets/images/mega-menu-item.jpg') }}" alt="New Horizons">
                     <div class="mega-menu__media-content content_abs content_left content_bottom">
                       <h3>NEW</h3>
                       <h3 class="mb-0">HORIZONS</h3>
@@ -608,7 +608,7 @@
 
       <div class="logo">
         <a href="index.html">
-          <img src="../images/logo.png" alt="Uomo" class="logo__image d-block">
+          <img src="{{ asset('/assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block">
         </a>
       </div><!-- /.logo -->
 
@@ -687,7 +687,7 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-bg">
-              <img loading="lazy" src="../images/home/demo2/slider1.jpg" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 80% center;">
+              <img loading="lazy" src="{{ asset('/assets/images/home/demo2/slider1.jpg') }}" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 80% center;">
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-shadow-white text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">Summer 2024</h6>
@@ -702,7 +702,7 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-bg">
-              <img loading="lazy" src="../images/home/demo2/slider2.jpg" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 70% center;">
+              <img loading="lazy" src="{{ asset('/assets/images/home/demo2/slider2.jpg') }}" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 70% center;">
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase text-shadow-white fs-base fw-medium animate animate_fade animate_btt animate_delay-3">Summer 2024</h6>
@@ -717,7 +717,7 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-bg">
-              <img loading="lazy" src="../images/home/demo2/slider3.jpg" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 70% center;">
+              <img loading="lazy" src="{{ asset('/assets/images/home/demo2/slider3.jpg') }}" width="1903" height="896" alt="Pattern" class="slideshow-bg__img object-fit-cover" style="object-position: 70% center;">
             </div>
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase text-shadow-white fs-base fw-medium animate animate_fade animate_btt animate_delay-3">Summer 2024</h6>
@@ -740,7 +740,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="grid-banner__item position-relative mb-3">
-            <img loading="lazy" class="w-100 h-auto" src="../images/home/demo2/grid_banner_1.jpg" width="450" height="450" alt="">
+            <img loading="lazy" class="w-100 h-auto" src="{{ asset('/assets/images/home/demo2/grid_banner_1.jpg') }}" width="450" height="450" alt="">
             <div class="content_abs content_center text-center">
               <h3 class="text-uppercase fw-bold mb-1">New</h3>
               <h3 class="text-uppercase fw-bold mb-1">Horizons</h3>
@@ -750,7 +750,7 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <div class="grid-banner__item position-relative mb-3">
-            <img loading="lazy" class="w-100 h-auto" src="../images/home/demo2/grid_banner_2.jpg" width="450" height="450" alt="">
+            <img loading="lazy" class="w-100 h-auto" src="{{ asset('/assets/images/home/demo2/grid_banner_2.jpg') }}" width="450" height="450" alt="">
             <div class="content_abs content_center text-center">
               <h3 class="text-uppercase fw-bold mb-1">Summer</h3>
               <h3 class="text-uppercase fw-bold mb-1">Hats</h3>
@@ -760,7 +760,7 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <div class="grid-banner__item position-relative mb-3">
-            <img loading="lazy" class="w-100 h-auto" src="../images/home/demo2/grid_banner_3.jpg" width="450" height="450" alt="">
+            <img loading="lazy" class="w-100 h-auto" src="{{ asset('/assets/images/home/demo2/grid_banner_3.jpg') }}" width="450" height="450" alt="">
             <div class="content_abs content_center text-center">
               <p class="text-white mb-1">Free delivery for Uomo members</p>
               <h3 class="text-uppercase fw-bold text-white mb-1">Promotions Up</h3>
@@ -835,8 +835,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -858,8 +858,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ ('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -882,8 +882,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -905,8 +905,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -930,8 +930,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -953,8 +953,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -977,8 +977,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1000,8 +1000,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1079,8 +1079,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1103,8 +1103,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1126,8 +1126,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1151,8 +1151,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1174,8 +1174,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1198,8 +1198,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1221,8 +1221,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1246,8 +1246,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1323,8 +1323,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1346,8 +1346,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1371,8 +1371,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1394,8 +1394,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1418,8 +1418,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1441,8 +1441,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1466,8 +1466,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1489,8 +1489,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1567,8 +1567,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1592,8 +1592,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ ('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1615,8 +1615,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1639,8 +1639,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1662,8 +1662,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-3-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-3-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-3-2.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-red text-white">-67%</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1687,8 +1687,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-0-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-0-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-0-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1710,8 +1710,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-1-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-1-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-1-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="product-label bg-white">NEW</div>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1734,8 +1734,8 @@
                 <div class="swiper-slide product-card">
                   <div class="pc__img-wrapper">
                     <a href="product1_simple.html">
-                      <img loading="lazy" src="../images/home/demo2/product-2-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                      <img loading="lazy" src="../images/home/demo2/product-2-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                      <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-2-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                     </a>
                     <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                       <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1812,35 +1812,35 @@
           }'>
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img loading="lazy" class="w-100 h-auto mb-3" src="../images/home/demo2/category1.jpg" width="258" height="278" alt="">
+              <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('/assets/images/home/demo2/category1.jpg') }}" width="258" height="278" alt="">
               <div class="text-center">
                 <a href="#" class="menu-link menu-link_us-s text-uppercase">Accessories</a>
                 <p class="mb-0 text-secondary">20 Products</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" class="w-100 h-auto mb-3" src="../images/home/demo2/category2.jpg" width="258" height="278" alt="">
+              <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('/assets/images/home/demo2/category2.jpg') }}" width="258" height="278" alt="">
               <div class="text-center">
                 <a href="#" class="menu-link menu-link_us-s text-uppercase">Bags</a>
                 <p class="mb-0 text-secondary">20 Products</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" class="w-100 h-auto mb-3" src="../images/home/demo2/category3.jpg" width="258" height="278" alt="">
+              <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('/assets/images/home/demo2/category3.jpg') }}" width="258" height="278" alt="">
               <div class="text-center">
                 <a href="#" class="menu-link menu-link_us-s text-uppercase">Shoes</a>
                 <p class="mb-0 text-secondary">20 Products</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" class="w-100 h-auto mb-3" src="../images/home/demo2/category4.jpg" width="258" height="278" alt="">
+              <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('/assets/images/home/demo2/category4.jpg') }}" width="258" height="278" alt="">
               <div class="text-center">
                 <a href="#" class="menu-link menu-link_us-s text-uppercase">Outerwear</a>
                 <p class="mb-0 text-secondary">20 Products</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" class="w-100 h-auto mb-3" src="../images/home/demo2/category5.jpg" width="258" height="278" alt="">
+              <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('/assets/images/home/demo2/category5.jpg') }}" width="258" height="278" alt="">
               <div class="text-center">
                 <a href="#" class="menu-link menu-link_us-s text-uppercase">Top</a>
                 <p class="mb-0 text-secondary">20 Products</p>
@@ -1854,7 +1854,7 @@
     <div class="mb-4 pb-4 mb-xl-4 mt-xl-3 pt-xl-3 pb-xl-4"></div>
 
     <section class="image-banner">
-      <div class="background-img" style="background-image: url('../images/home/demo2/image_banner_bg.jpg'); background-position: 20% center;"></div>
+      <div class="background-img" style="background-image: url('{{ asset('/assets/images/home/demo2/image_banner_bg.jpg') }}'); background-position: 20% center;"></div>
       <div class="image-banner__content container py-3">
         <h2 class="text-white fw-bold">New Season</h2>
         <p class="text-white mb-4">New Collection Release</p>
@@ -1909,8 +1909,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-4-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-4-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-4-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-4-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1932,8 +1932,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-5-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-5-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-white">NEW</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -1956,8 +1956,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-6-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-6-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -1979,8 +1979,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-7-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-7-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-red text-white">-67%</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -2004,8 +2004,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-4-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-4-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/asset/images/home/demo2/product-4-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/asset/images/home/demo2/product-4-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -2027,8 +2027,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-5-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-5-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-2.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-white">NEW</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -2051,8 +2051,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-6-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-6-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -2074,8 +2074,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-7-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-7-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-2.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-red text-white">-67%</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -2099,8 +2099,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-4-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-4-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-4-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-4-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -2122,8 +2122,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-5-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-5-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-5-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-white">NEW</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -2146,8 +2146,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-6-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-6-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-6-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
                   <button class="btn btn-primary flex-grow-1 fs-base ps-3 ps-xxl-4 pe-0 border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -2169,8 +2169,8 @@
             <div class="swiper-slide product-card">
               <div class="pc__img-wrapper">
                 <a href="product1_simple.html">
-                  <img loading="lazy" src="../images/home/demo2/product-7-1.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                  <img loading="lazy" src="../images/home/demo2/product-7-2.jpg" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-1.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                  <img loading="lazy" src="{{ asset('/assets/images/home/demo2/product-7-2.jpg') }}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                 </a>
                 <div class="product-label bg-red text-white">-67%</div>
                 <div class="anim_appear-bottom position-absolute bottom-0 start-0 w-100 d-none d-sm-flex align-items-center">
@@ -2249,7 +2249,7 @@
           <div class="swiper-wrapper blog-grid row-cols-xl-3">
             <div class="swiper-slide blog-grid__item mb-4">
               <div class="blog-grid__item-image">
-                <img loading="lazy" class="h-auto" src="../images/home/demo2/post1.jpg" width="450" height="300" alt="">
+                <img loading="lazy" class="h-auto" src="{{ asset('/assets/images/home/demo2/post1.jpg') }}" width="450" height="300" alt="">
               </div>
               <div class="blog-grid__item-detail">
                 <div class="blog-grid__item-meta">
@@ -2263,7 +2263,7 @@
             </div>
             <div class="swiper-slide blog-grid__item mb-4">
               <div class="blog-grid__item-image">
-                <img loading="lazy" class="h-auto" src="../images/home/demo2/post2.jpg" width="450" height="300" alt="">
+                <img loading="lazy" class="h-auto" src="{{ asset('/assets/images/home/demo2/post2.jpg') }}" width="450" height="300" alt="">
               </div>
               <div class="blog-grid__item-detail">
                 <div class="blog-grid__item-meta">
@@ -2277,7 +2277,7 @@
             </div>
             <div class="swiper-slide blog-grid__item mb-4">
               <div class="blog-grid__item-image">
-                <img loading="lazy" class="h-auto" src="../images/home/demo2/post3.jpg" width="450" height="300" alt="">
+                <img loading="lazy" class="h-auto" src="{{ asset('/assets/images/home/demo2/post3.jpg') }}" width="450" height="300" alt="">
               </div>
               <div class="blog-grid__item-detail">
                 <div class="blog-grid__item-meta">
@@ -2331,25 +2331,25 @@
           }'>
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand1.png" width="120" height="20" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand1.png') }}" width="120" height="20" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand2.png" width="87" height="20" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand2.png') }}" width="87" height="20" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand3.png" width="132" height="22" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand3.png') }}" width="132" height="22" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand4.png" width="72" height="21" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand4.png') }}" width="72" height="21" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand5.png" width="123" height="31" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand5.png') }}" width="123" height="31" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand6.png" width="137" height="22" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand6.png') }}" width="137" height="22" alt="">
             </div>
             <div class="swiper-slide">
-              <img loading="lazy" src="../images/brands/brand7.png" width="94" height="21" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/brands/brand7.png') }}" width="94" height="21" alt="">
             </div>
           </div><!-- /.swiper-wrapper -->
         </div><!-- /.swiper-container js-swiper-slider -->
@@ -2378,7 +2378,7 @@
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
             <a href="index.html">
-              <img src="../images/logo-white.png" alt="Uomo" class="logo__image">
+              <img src="{{ asset('/asset/images/logo-white.png') }}" alt="Uomo" class="logo__image">
             </a>
           </div><!-- /.logo -->
           <p class="footer-address">1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
@@ -2606,7 +2606,7 @@
       <div class="cart-drawer-item d-flex position-relative">
         <div class="position-relative">
           <a href="product1_simple.html">
-            <img loading="lazy" class="cart-drawer-item__img" src="../images/cart-item-1.jpg" alt="">
+            <img loading="lazy" class="cart-drawer-item__img" src="{{ asset('/assets/images/cart-item-1.jpg') }}" alt="">
           </a>
         </div>
         <div class="cart-drawer-item__info flex-grow-1">
@@ -2631,7 +2631,7 @@
       <div class="cart-drawer-item d-flex position-relative">
         <div class="position-relative">
           <a href="product1_simple.html">
-            <img loading="lazy" class="cart-drawer-item__img" src="../images/cart-item-2.jpg" alt="">
+            <img loading="lazy" class="cart-drawer-item__img" src="{{ asset('/assets/images/cart-item-2.jpg') }}" alt="">
           </a>
         </div>
         <div class="cart-drawer-item__info flex-grow-1">
@@ -2656,7 +2656,7 @@
       <div class="cart-drawer-item d-flex position-relative">
         <div class="position-relative">
           <a href="product1_simple.html">
-            <img loading="lazy" class="cart-drawer-item__img" src="../images/cart-item-3.jpg" alt="">
+            <img loading="lazy" class="cart-drawer-item__img" src="{{ asset('/assets/images/cart-item-3.jpg') }}" alt="">
           </a>
         </div>
         <div class="cart-drawer-item__info flex-grow-1">
@@ -2694,7 +2694,7 @@
     <div class="modal-dialog modal-fullscreen">
       <div class="sitemap d-flex">
         <div class="w-50 d-none d-lg-block">
-          <img loading="lazy" src="../images/nav-bg.jpg" alt="Site map" class="sitemap__bg">
+          <img loading="lazy" src="{{ asset('/assets/images/nav-bg.jpg') }}" alt="Site map" class="sitemap__bg">
         </div><!-- /.sitemap__bg w-50 d-none d-lg-block -->
         <div class="sitemap__links w-50 flex-grow-1">
           <div class="modal-content">
@@ -2958,16 +2958,16 @@
                 }'>
                 <div class="swiper-wrapper">
                   <div class="swiper-slide product-single__image-item">
-                    <img loading="lazy" src="../images/products/quickview_1.jpg" alt="">
+                    <img loading="lazy" src="{{ asset('/assets/images/products/quickview_1.jpg') }}" alt="">
                   </div>
                   <div class="swiper-slide product-single__image-item">
-                    <img loading="lazy" src="../images/products/quickview_2.jpg" alt="">
+                    <img loading="lazy" src="{{ asset('/assets/images/products/quickview_2.jpg') }}" alt="">
                   </div>
                   <div class="swiper-slide product-single__image-item">
-                    <img loading="lazy" src="../images/products/quickview_3.jpg" alt="">
+                    <img loading="lazy" src="{{ asset('/assets/images/products/quickview_3.jpg') }}" alt="">
                   </div>
                   <div class="swiper-slide product-single__image-item">
-                    <img loading="lazy" src="../images/products/quickview_4.jpg" alt="">
+                    <img loading="lazy" src="{{ asset('/assets/images/products/quickview_4.jpg') }}" alt="">
                   </div>
                 </div>
                 <div class="swiper-button-prev"><svg width="7" height="11" viewbox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_prev_sm"></use></svg></div>
@@ -3075,7 +3075,7 @@
         <div class="row p-0 m-0">
           <div class="col-md-6 p-0 d-none d-md-block">
             <div class="newsletter-popup__bg h-100 w-100">
-              <img loading="lazy" src="../images/newsletter-popup.jpg" class="h-100 w-100 object-fit-cover d-block" alt="">
+              <img loading="lazy" src="{{ asset('/assets/images/newsletter-popup.jpg') }}" class="h-100 w-100 object-fit-cover d-block" alt="">
             </div>
           </div>
           <div class="col-md-6 p-0 d-flex align-items-center">
@@ -3101,16 +3101,15 @@
 
 
   <!-- External JavaScripts -->
-  <script src="js/plugins/jquery.min.js"></script>
-  <script src="js/plugins/bootstrap.bundle.min.js"></script>
-  <script src="js/plugins/bootstrap-slider.min.js"></script>
+  <script src="{{ asset('/assets/js/plugins/jquery.min.js') }}"></script>
+  <script src="{{ asset('/assets/js/plugins/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('/assets/js/plugins/bootstrap-slider.min.js') }}"></script>
   
-  <script src="js/plugins/swiper.min.js"></script>
-  <script src="js/plugins/countdown.js"></script>
+  <script src="{{ asset('/assets/js/plugins/swiper.min.js') }}"></script>
+  <script src="{{ asset('/assets/js/plugins/countdown.js') }}"></script>
 
   <!-- Footer Scripts -->
-  <script src="js/theme.js"></script>
+  <script src="{{ asset('/assets/js/theme.js') }}"></script>
 
 </body>
 </html>
-  
