@@ -1,22 +1,11 @@
-  <!-- Footer Type 2 Dark -->
-  <footer class="footer footer_type_2 dark">
-    <div class="footer-top container">
-      <div class="block-newsletter dark">
-        <h3 class="block__title">Get 10% Off</h3>
-        <p>Be the first to get the latest news about trends, promotions, and much more!</p>
-        <form action="./index.html" class="block-newsletter__form">
-          <input class="form-control" type="email" name="email" placeholder="Your email address">
-          <button class="btn btn-secondary fw-medium" type="submit">JOIN</button>
-        </form>
-      </div>
-    </div><!-- /.footer-top container -->
-
+  <!-- Footer Type 1 -->
+  <footer class="footer footer_type_1">
     <div class="footer-middle container">
       <div class="row row-cols-lg-5 row-cols-2">
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
             <a href="{{ url('/') }}">
-              <img src="{{ asset('/asset/images/logo-white.png') }}" alt="Uomo" class="logo__image">
+              <img src="{{ asset('/assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block">
             </a>
           </div><!-- /.logo -->
           <p class="footer-address">1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
@@ -85,44 +74,58 @@
             <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">Customer Service</a></li>
             <li class="sub-menu__item"><a href="account_dashboard.html" class="menu-link menu-link_us-s">My Account</a></li>
             <li class="sub-menu__item"><a href="store_location.html" class="menu-link menu-link_us-s">Find a Store</a></li>
-            <li class="sub-menu__item"><a href="terms.html" class="menu-link menu-link_us-s">Legal & Privacy</a></li>
+            <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">Legal & Privacy</a></li>
             <li class="sub-menu__item"><a href="contact.html" class="menu-link menu-link_us-s">Contact</a></li>
             <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">Gift Card</a></li>
           </ul>
         </div><!-- /.footer-column -->
 
-        <div class="footer-column mb-4 mb-lg-0">
-          <h6 class="sub-menu__title text-uppercase">Opening Time</h6>
-          <ul class="list-unstyled">
-            <li><span class="menu-link">Mon - Fri: 8AM - 9PM</span></li>
-            <li><span class="menu-link">Sat: 9AM - 8PM</span></li>
-            <li><span class="menu-link">Sun: Closed</span></li>
-          </ul>
+        <div class="footer-column footer-newsletter col-12 mb-4 mb-lg-0">
+          <h6 class="sub-menu__title text-uppercase">Subscribe</h6>
+          <p>Be the first to get the latest news about trends, promotions, and much more!</p>
+          <form action="#" class="footer-newsletter__form position-relative bg-body">
+            <input class="form-control border-white" type="email" name="email" placeholder="Your email address">
+            <input class="btn-link fw-medium bg-white position-absolute top-0 end-0 h-100" type="submit" value="JOIN">
+          </form>
+
+          <div class="mt-4 pt-3">
+            <strong class="fw-medium">Secure payments</strong>
+            <p class="mt-2">
+              <img loading="lazy" src="{{ asset('/assets/images/payment-options.png')}}" alt="Acceptable payment gateways">
+            </p>
+          </div>
         </div><!-- /.footer-column -->
       </div><!-- /.row-cols-5 -->
     </div><!-- /.footer-middle container -->
 
-    <div class="footer-bottom">
-      <div class="container d-md-flex align-items-center">
-        <span class="footer-copyright me-auto">©{{ date('Y') }} Sika's Clothing. All Rights Reserved</span>
-        <div class="footer-settings d-md-flex align-items-center">
-          <select id="footerSettingsLanguage" class="form-select form-select-sm bg-transparent border-0" aria-label="Default select example" name="store-language">
-            <option class="footer-select__option" selected="">United Kingdom | English</option>
-            <option class="footer-select__option" value="1">United States | English</option>
-            <option class="footer-select__option" value="2">German</option>
-            <option class="footer-select__option" value="3">French</option>
-            <option class="footer-select__option" value="4">Swedish</option>
-          </select>
+    <div class="footer-bottom container">
+      <div class="d-block d-md-flex align-items-center">
+        <span class="footer-copyright me-auto">©2024 Uomo</span>
+        <div class="footer-settings d-block d-md-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <label for="footerSettingsLanguage" class="me-2 text-secondary">Language</label>
+            <select id="footerSettingsLanguage" class="form-select form-select-sm bg-transparent" aria-label="Default select example" name="store-language">
+              <option class="footer-select__option" selected="">United Kingdom | English</option>
+              <option class="footer-select__option" value="1">United States | English</option>
+              <option class="footer-select__option" value="2">German</option>
+              <option class="footer-select__option" value="3">French</option>
+              <option class="footer-select__option" value="4">Swedish</option>
+            </select>
+          </div>
 
-          <select id="footerSettingsCurrency" class="form-select form-select-sm bg-transparent border-0" aria-label="Default select example" name="store-language">
-            <option class="footer-select__option" selected="">$ USD</option>
-            <option class="footer-select__option" value="1">£ GBP</option>
-            <option class="footer-select__option" value="2">€ EURO</option>
-          </select>
+          <div class="d-flex align-items-center">
+            <label for="footerSettingsCurrency" class="ms-md-3 me-2 text-secondary">Currency</label>
+            <select id="footerSettingsCurrency" class="form-select form-select-sm bg-transparent" aria-label="Default select example" name="store-language">
+              <option selected="">$ USD</option>
+              <option value="1">£ GBP</option>
+              <option value="2">€ EURO</option>
+            </select>
+          </div>
         </div><!-- /.footer-settings -->
-      </div><!-- /.container d-flex align-items-center -->
+      </div><!-- /.d-flex -->
     </div><!-- /.footer-bottom container -->
-  </footer>
+  </footer><!-- /.footer footer_type_1 -->
+  <!-- End Footer Type 1 -->
 
   <!-- Mobile Fixed Footer -->
   <footer class="footer-mobile container w-100 px-5 d-md-none bg-body">
