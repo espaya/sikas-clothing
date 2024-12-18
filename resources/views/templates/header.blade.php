@@ -580,7 +580,7 @@
               <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <use href="#icon_user"></use>
               </svg>
-            </a>
+            </a> 
             @else 
               <a class="header-tools__item js-open-aside" href="#" data-aside="customerForms">
                 <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_user"></use></svg>
@@ -593,7 +593,7 @@
             <span class="cart-amount d-block position-absolute js-cart-items-count">3</span>
           </a>
 
-          <a class="header-tools__item" href="account_wishlist.html">
+          <a class="header-tools__item" href="{{ route('wishlist') }}">
             <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_heart"></use></svg>
           </a>
 
@@ -607,17 +607,17 @@
   <!-- End Header Type 1 -->
    
   <script>
-              function navigateToHref(event, element) {
-                  // Prevent the default behavior of the <a> tag
-                  event.preventDefault();
+    function navigateToHref(event, element) {
+        // Prevent the default behavior of the <a> tag
+        event.preventDefault();
                   
-                  // Get the href attribute of the clicked link
-                  const href = element.getAttribute('href');
+        // Get the href attribute of the clicked link
+        const href = element.getAttribute('href');
 
-                  // Redirect to the href
-                  window.location.href = href;
+        // Redirect to the href
+        window.location.href = href;
 
-                  // Optionally, you can add any additional logic here
-                  console.log('Navigated to:', href);
-              }
-          </script>
+        // Optionally, you can add any additional logic here
+        console.log('Navigated to:', href);
+    }
+  </script>
