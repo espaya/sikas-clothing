@@ -1,10 +1,10 @@
-  <!-- Footer Type 1 -->
-  <footer class="footer footer_type_1">
+<!-- Footer Type 1 -->
+<footer class="footer footer_type_1">
     <div class="footer-middle container">
       <div class="row row-cols-lg-5 row-cols-2">
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
-            <a href="{{ url('/') }}">
+            <a href="index.html">
               <img src="{{ asset('/assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block">
             </a>
           </div><!-- /.logo -->
@@ -83,7 +83,7 @@
         <div class="footer-column footer-newsletter col-12 mb-4 mb-lg-0">
           <h6 class="sub-menu__title text-uppercase">Subscribe</h6>
           <p>Be the first to get the latest news about trends, promotions, and much more!</p>
-          <form action="#" class="footer-newsletter__form position-relative bg-body">
+          <form action="./index.html" class="footer-newsletter__form position-relative bg-body">
             <input autocomplete="off" value="{{ old('email') }}" class="form-control border-white" type="text" name="email" placeholder="Your email address">
             <input class="btn-link fw-medium bg-white position-absolute top-0 end-0 h-100" type="submit" value="JOIN">
           </form>
@@ -91,7 +91,7 @@
           <div class="mt-4 pt-3">
             <strong class="fw-medium">Secure payments</strong>
             <p class="mt-2">
-              <img loading="lazy" src="{{ asset('/assets/images/payment-options.png')}}" alt="Acceptable payment gateways">
+              <img loading="lazy" src="{{ asset('/assets/images/payment-options.png') }}" alt="Acceptable payment gateways">
             </p>
           </div>
         </div><!-- /.footer-column -->

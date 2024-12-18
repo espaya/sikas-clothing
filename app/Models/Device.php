@@ -9,7 +9,7 @@ class Device extends Model
     protected $table = 'device';
     
     protected $fillable = [
-        'userID',
+        'user_id',
         'device',
         'platform',
         'platform_version',
