@@ -46,7 +46,7 @@
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                 @csrf
             </form>
-            <p>From your account dashboard you can view your <a class="unerline-link" href="account_orders.html">recent orders</a>, manage your <a class="unerline-link" href="account_edit_address.html">shipping and billing addresses</a>, and <a class="unerline-link" href="account_edit.html">edit your password and account details.</a></p>
+            <p>From your account dashboard you can view your <a class="unerline-link" href="{{ route('orders') }}">recent orders</a>, manage your <a class="unerline-link" href="{{ route('account.details') }}">shipping and billing addresses</a>, and <a class="unerline-link" href="account_edit.html">edit your password and account details.</a></p>
           </div>
         </div>
       </div>
