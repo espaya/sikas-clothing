@@ -40,10 +40,14 @@
                 <li><a href="{{ route('home') }}" class="menu-link menu-link_us-s">Dashboard</a></li>
                 <li><a href="{{ route('orders') }}" class="menu-link menu-link_us-s">Orders</a></li>
                 <li><a href="{{ route('address') }}" class="menu-link menu-link_us-s">Addresses</a></li>
-                <li><a href="{{ route('account.details') }}" class="menu-link menu-link_us-s">Account Details</a></li>
+                <li><a href="{{ route('account.details') }}" class="menu-link">Account Details</a></li>
                 <li><a href="{{ route('wishlist') }}" class="menu-link menu-link_us-s menu-link_active">Wishlist</a></li>
-                <li><a href="{{ route('logout') }}" class="menu-link menu-link_us-s">Logout</a></li>
+                <li><a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="menu-link menu-link_us-s">Logout</a></li>
             </ul>
+            <!-- Hidden form -->
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
         </div>
         <div class="col-lg-9">
           <div class="page-content my-account__wishlist">
