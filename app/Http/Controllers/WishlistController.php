@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class WishlistController extends Controller
 {
@@ -13,6 +14,8 @@ class WishlistController extends Controller
 
     public function index()
     {
-        return view('customer.wishlist');
+        $auth = Auth::user();
+
+        return view('customer.wishlist', ['auth' => $auth]);
     }
 }

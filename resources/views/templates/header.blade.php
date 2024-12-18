@@ -575,9 +575,17 @@
           </div><!-- /.header-tools__item hover-container -->
 
           <div class="header-tools__item hover-container">
-            <a class="header-tools__item js-open-aside" href="#" data-aside="customerForms">
-              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_user"></use></svg>
+            @if($auth)
+            <a class="header-tools__item js-open-aside" href="{{ route('home') }}" onclick="navigateToHref(event, this)">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="#icon_user"></use>
+              </svg>
             </a>
+            @else 
+              <a class="header-tools__item js-open-aside" href="#" data-aside="customerForms">
+                <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_user"></use></svg>
+              </a>
+            @endif
           </div>
 
           <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
@@ -597,3 +605,19 @@
     </div><!-- /.container -->
   </header>
   <!-- End Header Type 1 -->
+   
+  <script>
+              function navigateToHref(event, element) {
+                  // Prevent the default behavior of the <a> tag
+                  event.preventDefault();
+                  
+                  // Get the href attribute of the clicked link
+                  const href = element.getAttribute('href');
+
+                  // Redirect to the href
+                  window.location.href = href;
+
+                  // Optionally, you can add any additional logic here
+                  console.log('Navigated to:', href);
+              }
+          </script>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AccountDetailsController extends Controller
 {
@@ -13,6 +14,8 @@ class AccountDetailsController extends Controller
 
     public function index()
     {
-        return view('customer.account_details');
+        $auth = Auth::id();
+
+        return view('customer.account_details', ['auth' => $auth]);
     }
 }

@@ -5,12 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class AboutController extends Controller
+class FrontPageController extends Controller
 {
     public function index()
     {
         $auth = Auth::id();
 
-        return view('about', ['auth' => $auth]);
+        return view('index', ['auth' => $auth]);
     }
 }

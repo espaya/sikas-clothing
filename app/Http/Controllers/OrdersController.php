@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class OrdersController extends Controller
 {
@@ -13,6 +14,8 @@ class OrdersController extends Controller
 
     public function index()
     {
-        return view('customer.orders');
+        $auth = Auth::id();
+
+        return view('customer.orders', ['auth' => $auth]);
     }
 }

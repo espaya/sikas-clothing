@@ -5,6 +5,7 @@ use App\Http\Controllers\AccountDetailsController;
 use App\Http\Controllers\AddressController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\FrontPageController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OrdersController;
 use App\Http\Controllers\TwoFactorController;
@@ -20,9 +21,7 @@ Route::group(['middleware' => 'guest'], function(){
     
 });
 
-Route::get('/', function () {
-    return view('index');
-})->name('homepage');
+Route::get('/', [FrontPageController::class, 'index'])->name('homepage');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::post('/myaccount/logout', [LoginController::class, 'logout'])->name('logout');
